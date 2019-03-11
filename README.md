@@ -14,7 +14,7 @@ Run terminal code
 $ docker run --name database -p 5432:5432 -d -t kartoza/postgis
 ```
 
-Create database named _gobarber_
+Create database named *_gobarber_*
 
 ## Package installation
 
