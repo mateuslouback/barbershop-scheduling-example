@@ -4,7 +4,7 @@ Application of scheduling template for barbershop using NodeJS, PostgreSQL and N
 
 ![](https://media.giphy.com/media/1wrlkILYpw65VDMwPo/giphy.gif)
 
-## Create a PostgreSQL database using docker
+### Create a PostgreSQL database using docker
 
 Install Docker (https://www.docker.com)
 
@@ -16,7 +16,7 @@ $ docker run --name database -p 5432:5432 -d -t kartoza/postgis
 
 Create database named **"gobarber"**
 
-## Package installation
+### Package installation
 
 Install Yarn:
 Open (https://yarnpkg.com/).
@@ -27,7 +27,7 @@ In the project folder run the terminal code
 $ yarn install
 ```
 
-## Run Migrate
+### Run Migrate
 
 In the project folder run the terminal code
 
@@ -35,7 +35,7 @@ In the project folder run the terminal code
 $  npx sequelize db:migrate
 ```
 
-## Run server node
+### Run server node
 
 In the project folder run the terminal code
 
